@@ -3,11 +3,19 @@
 @tailwind utilities;
 
 @layer components {
-  .gradient-orange {
-    @apply bg-gradient-to-r from-[#F02AA6] to-[#FF6F48] hover:from-[#ffb7a3] hover:to-[#f795d2];
+  .bg-gradient-orange {
+    @apply bg-gradient-to-r from-[#F02AA6] to-[#FF6F48];
   }
 
-  .gradient-blue {
-    @apply bg-gradient-to-r from-[#4851FF] to-[#F02AA6] hover:from-[#a3a7ff] hover:to-[#f795d2];
+  .bg-gradient-orange-light {
+    @apply bg-gradient-to-r hover:from-[#ffb7a3] hover:to-[#f795d2];
+  }
+
+  .bg-gradient-blue {
+    @apply bg-gradient-to-r from-[#4851FF] to-[#F02AA6];
+  }
+
+  .bg-gradient-blue-light {
+    @apply bg-gradient-to-r hover:from-[#a3a7ff] hover:to-[#f795d2];
   }
 }
