@@ -1,10 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <header>
-    <div class="wrapper">
-      Hey there
-    </div>
+    <h1 class="text-3xl font-bold text-blue-400 underline">Hello world!</h1>
   </header>
 </template>
