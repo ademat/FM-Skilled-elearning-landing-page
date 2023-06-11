@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .gradient-orange {
+    @apply bg-gradient-to-r from-[#F02AA6] to-[#FF6F48] hover:from-[#ffb7a3] hover:to-[#f795d2];
+  }
+
+  .gradient-blue {
+    @apply bg-gradient-to-r from-[#4851FF] to-[#F02AA6] hover:from-[#a3a7ff] hover:to-[#f795d2];
+  }
+}
